@@ -18,7 +18,7 @@ The following functionality and features are implemented:
 
 ![](https://github.com/karenxx/TipCalculator-iOS/blob/master/tipCal_gif.gif)
 
-GIF created with [Recordit](http://recordit.co/).
+GIF created with [QuickTime](https://support.apple.com/downloads/quicktime) and [GIFBrewery](http://gifbrewery.com/).
 
 ## License
 MIT License
