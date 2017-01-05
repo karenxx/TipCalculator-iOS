@@ -28,7 +28,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    override func viewWillAppear(_ animated: Bool) {
+        let defaultSetting = UserDefaults.standard
+        let percentageSetting = defaultSetting.integer(forKey: "tip_percentage")
+        tipChoice.selectedSegmentIndex = percentageSetting
+    }
+    
     @IBAction func onTap(_ sender: AnyObject) {
         view.endEditing(true)
     }

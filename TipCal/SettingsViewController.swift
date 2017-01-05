@@ -10,6 +10,8 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    @IBOutlet weak var setPercentageControl: UISegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,4 +34,20 @@ class SettingsViewController: UIViewController {
     }
     */
 
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let defaults = UserDefaults.standard
+        let percent = defaults.integer(forKey: "tip_percentage")
+        
+        setPercentageControl.selectedSegmentIndex = percent
+    }
+    
+    @IBAction func onSetPercent(_ sender: AnyObject) {
+        let defaults = UserDefaults.standard
+        let percent_index = setPercentageControl.selectedSegmentIndex
+        
+        defaults.set(percent_index, forKey: "tip_percentage")
+        defaults.synchronize()
+    }
+    
 }
