@@ -14,6 +14,7 @@
 		54F3AC031E15E06800EEABDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F3AC011E15E06800EEABDF /* LaunchScreen.storyboard */; };
 		54F3AC0E1E15E06800EEABDF /* TipCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AC0D1E15E06800EEABDF /* TipCalTests.swift */; };
 		54F3AC191E15E06800EEABDF /* TipCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AC181E15E06800EEABDF /* TipCalUITests.swift */; };
+		54F9EE131E1DF55F00D20F8F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F9EE121E1DF55F00D20F8F /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		54F3AC141E15E06800EEABDF /* TipCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F3AC181E15E06800EEABDF /* TipCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalUITests.swift; sourceTree = "<group>"; };
 		54F3AC1A1E15E06800EEABDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F9EE121E1DF55F00D20F8F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				54F3ABF81E15E06800EEABDF /* AppDelegate.swift */,
 				54F3ABFA1E15E06800EEABDF /* ViewController.swift */,
 				54F3ABFC1E15E06800EEABDF /* Main.storyboard */,
+				54F9EE121E1DF55F00D20F8F /* SettingsViewController.swift */,
 				54F3ABFF1E15E06800EEABDF /* Assets.xcassets */,
 				54F3AC011E15E06800EEABDF /* LaunchScreen.storyboard */,
 				54F3AC041E15E06800EEABDF /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				54F3ABFB1E15E06800EEABDF /* ViewController.swift in Sources */,
 				54F3ABF91E15E06800EEABDF /* AppDelegate.swift in Sources */,
+				54F9EE131E1DF55F00D20F8F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
