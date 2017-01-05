@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        billVal.becomeFirstResponder()
     // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -32,6 +33,9 @@ class ViewController: UIViewController {
         let defaultSetting = UserDefaults.standard
         let percentageSetting = defaultSetting.integer(forKey: "tip_percentage")
         tipChoice.selectedSegmentIndex = percentageSetting
+        
+        calculateTip(tipChoice)
+        calEachPay(tipChoice)
     }
     
     @IBAction func onTap(_ sender: AnyObject) {
