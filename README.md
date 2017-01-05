@@ -16,9 +16,7 @@ The following functionality and features are implemented:
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories:
-
-<img src='recordit.co/KvBi3vsdOc' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](https://github.com/karenxx/TipCalculator-iOS/blob/master/tipCal_gif.gif)
 
 GIF created with [Recordit](http://recordit.co/).
 
